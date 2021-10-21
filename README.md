@@ -108,3 +108,19 @@ group - integer or null (id сообщества)
 "image": "string",
 "group": 0
 }
+
+---
+
+PUT-запрос на /api/v1/posts/{id}/
+
+    PATH PARAMETERS:
+id (required) - integer (id публикации)
+
+    REQUEST BODY SCHEMA: 
+text (required) - string (текст публикации)
+image -	string or null <binary>
+group - integer or null (id сообщества)
+
+---
+
+С полным списком можно ознакомить по ссылке http://127.0.0.1:8000/redoc/
