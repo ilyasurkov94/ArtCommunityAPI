@@ -20,8 +20,11 @@
 Model       Serializer          ModelViewSet
 ---
 Post    -  PostSerializer    -  PostViewSet
+
 Group   -  GroupSerializer   -  GroupViewSet
+
 Comment -  CommentSerializer -  CommentViewSet
+
 Follow  -  FollowSerializer  -  FollowViewSet
 
 ---
